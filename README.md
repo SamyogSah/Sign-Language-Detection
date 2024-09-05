@@ -105,8 +105,7 @@ By default, when you launch app.py, the inference mode is active. It can also be
 1. Clone the Repository:
 
 ```
-git clone https://github.com/AkramOM606/American-Sign-Language-Detection.git
-cd American-Sign-Language-Detection
+git clone https://github.com/SamyogSah/Sign-Language-Detection.git
 ```
 
 3. Install Dependencies:
