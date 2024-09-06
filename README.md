@@ -57,9 +57,6 @@ The project is on track, with significant progress made in dataset preparation, 
 
 This ASL Detector is a cutting-edge AI-powered application that uses computer vision and deep learning to recognize and classify American Sign Language (ASL) characters in real-time. This application utilizes the device's camera to capture hand landmarks and coordinates, which are then processed by a deep learning model to identify the corresponding ASL character.
 
-<p align="center">
-   <img src="https://github.com/AkramOM606/American-Sign-Language-Detection/assets/162604610/6945d009-8aa7-4bf7-99f8-9743662c5248" width="50%">
-</p>
 
 # Usage
 By default, when you launch app.py, the inference mode is active. It can also be manually activated in other modes by pressing “n”.
@@ -128,9 +125,7 @@ If you wish to train the model on your dataset, follow these steps:
 Activate the manual key point saving mode by pressing "k", which will be indicated as “MODE: Logging Key Point”.<br>
 If you press any uppercase letter from “A” to “Z”, the key points will be recorded and added to the “model/keypoint_classifier/keypoint.csv” file as demonstrated below.
 
-<p align="center">
-   <img src="https://github.com/AkramOM606/American-Sign-Language-Detection/assets/162604610/e0393472-f7c6-41f7-b5a6-3814dc4b7044">
-<p/>
+
 
 > [!NOTE]
 > Each time you press the uppercase letter a single entry point is appended to keypoint.csv.
@@ -138,9 +133,7 @@ If you press any uppercase letter from “A” to “Z”, the key points will b
 2. Automated Key Points Data Capturing
 
 Activate the automatic key point saving mode by pressing "d", which will change the content of the camera window to an image of OM606.
-<p align="center">
-   <img src="https://github.com/AkramOM606/American-Sign-Language-Detection/assets/162604610/f4b11849-7fd9-423b-aee3-efa31f300159" width="70%"><br>
-<p/>
+
 
 > [!NOTE]
 > You need to specify the dataset directory in ```app.py```
@@ -157,7 +150,5 @@ If you wish to alter the number of classes in the training data, adjust the valu
 
 The following is the image of the model structure that was prepared in the "[keypoint_classification.ipynb](keypoint_classification.ipynb)" notebook.
 
-<p align="center">
-   <img src="https://github.com/AkramOM606/American-Sign-Language-Detection/assets/162604610/e0940c53-f12b-46da-8526-2ffb9a011634">
-<p/>
+
 
